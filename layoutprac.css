@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.h3{
+  text-align: center;
+  color: lightsteelblue;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    grid-template-rows: 100px 100px;
+    grid-gap: 5px;
+    background-color: #C5A7F6;
+    padding: 5px;
+    width: 50%;
+    /* position: fixed;
+    left: 15%; */
+    margin: 0 auto;
+ 
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 10px;
+    width: 80px;
+    height: 80px;
+  }
